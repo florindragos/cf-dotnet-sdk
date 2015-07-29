@@ -225,6 +225,8 @@
     <Compile Include="Generated\Data\DC_CreateServiceInstanceResponse.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Generated\Data\DC_CreateServiceKeyRequest.cs" />
+    <Compile Include="Generated\Data\DC_CreateServiceKeyResponse.cs" />
     <Compile Include="Generated\Data\DC_CreateServicePlanDeprecatedRequest.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -273,6 +275,7 @@
     <Compile Include="Generated\Data\DC_CreateUserResponse.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Generated\Data\DC_DeleteServiceInstanceResponse.cs" />
     <Compile Include="Generated\Data\DC_EnableOrDisableBuildpackRequest.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -468,6 +471,7 @@
     <Compile Include="Generated\Data\DC_ListAllServiceInstancesResponse.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Generated\Data\DC_ListAllServiceKeysResponse.cs" />
     <Compile Include="Generated\Data\DC_ListAllServicePlansForServiceResponse.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -535,6 +539,8 @@
     <Compile Include="Generated\Data\DC_ListAppExitedEventsResponse.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Generated\Data\DC_ListAppStartEventsResponse.cs" />
+    <Compile Include="Generated\Data\DC_ListAppStopEventsResponse.cs" />
     <Compile Include="Generated\Data\DC_ListAppUpdateEventsResponse.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -701,6 +707,7 @@
     <Compile Include="Generated\Data\DC_RetrieveServiceInstanceResponse.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Generated\Data\DC_RetrieveServiceKeyResponse.cs" />
     <Compile Include="Generated\Data\DC_RetrieveServicePlanResponse.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -737,6 +744,8 @@
     <Compile Include="Generated\Data\DC_RetrievingPermissionsOnServiceInstanceResponse.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Generated\Data\DC_RetrievingRolesOfAllUsersInOrganizationResponse.cs" />
+    <Compile Include="Generated\Data\DC_RetrievingRolesOfAllUsersInSpaceResponse.cs" />
     <Compile Include="Generated\Data\DC_ReturnSecurityGroupsUsedForRunningAppsResponse.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -911,6 +920,7 @@
     <Compile Include="Generated\ServiceInstances.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Generated\ServiceKeys.cs" />
     <Compile Include="Generated\ServicePlans.cs">
       <SubType>Code</SubType>
     </Compile>
